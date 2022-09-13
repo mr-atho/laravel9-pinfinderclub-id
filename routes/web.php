@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [ProjectController::class, 'index'])->name('home');
+
+Route::get('/about', function () {
+    return view('about');
 });
+
+Route::get('/products', function () {
+    return view('products');
+});
+
+Route::get('/product_single/{id}', [ProjectController::class, 'product_single'])->name('product_single');
