@@ -9,15 +9,8 @@ class ProjectController extends Controller
 {
     function index()
     {
-        $products = DB::table('products')->get();
+        $products = DB::table('products')->where('sale_price', '!=', null)->get();
 
         return view('index', ['products' => $products]);
-    }
-
-    function product_single(Request $request, $id)
-    {
-        $product_array = DB::table('products')->where('id', $id)->get();
-
-        return view('product_single', ['product_array' => $product_array]);
     }
 }

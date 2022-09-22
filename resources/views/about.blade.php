@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.v_main')
 
 @section('content')
     <!-- About Start -->
