@@ -18,10 +18,10 @@ return new class extends Migration
             $table->integer('order_id');
             $table->integer('product_id');
             $table->string('product_name');
-            $table->decimal('product_price', 8, 2);
+            $table->decimal('product_price', 8, 0);
             $table->string('product_image');
             $table->integer('product_quantity');
-            $table->date('order_date');
+            $table->dateTime('order_date');
             $table->timestamps();
         });
     }

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->integer('order_id');
             $table->string('transaction_id');
-            $table->string('date');
+            $table->dateTime('date');
             $table->timestamps();
         });
     }
