@@ -1,8 +1,8 @@
 <p align="center"><a href="https://pinfinderclub.id" target="_blank"><img src="https://github.com/mr-atho/laravel9-pinfinderclub-id/blob/main/public/images/PFCGold1080_200x@2x.png?raw=true" width="400" alt="Pinfinderclub.id Logo"></a></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/mr-atho/laravel9-pinfinderclub-id" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/mr-atho/laravel9-pinfinderclub-id" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/mr-atho/laravel9-pinfinderclub-id"><img src="https://img.shields.io/packagist/dt/mr-atho/laravel9-pinfinderclub-id" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/mr-atho/laravel9-pinfinderclub-id"><img src="https://img.shields.io/packagist/v/mr-atho/laravel9-pinfinderclub-id" alt="Latest Stable Version"></a>
 </p>
 
 ## About Pinfinderclub.id
@@ -14,7 +14,7 @@ Pinfinderclub.id adalah website toko online untuk penggemar Pin Trading dan kole
 Kami mengundang para penggiat Pathfinder untuk bergabung bersama kami dalam menyediakan pin-pin yang dapat dimiliki oleh seluruh Pathfinder dan kolektor.
 ### Premium Partners
 
-- **[Atho](https://athoria.me/)**
+- **[Atho](http://athoria.me/)**
 
 ## Requirement
 - Framework Laravel 9
